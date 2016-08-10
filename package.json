@@ -8,7 +8,8 @@
 	"description": "What am I about?",
 	"main": "server.js",
 	"scripts": {
-		"start": "bash testAndLaunch.sh"
+		"start": "node server.js",
+		"test": "mocha"
 	},
 	"dependencies": {
     "express": "^4.12.4",
